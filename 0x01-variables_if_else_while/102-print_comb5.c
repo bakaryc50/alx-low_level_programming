@@ -9,8 +9,6 @@ int main(void)
 {
 	int n;
 	int m;
-	int k;
-	int p;
 
 	for (n = 0; n < 99; n++)
 	{
