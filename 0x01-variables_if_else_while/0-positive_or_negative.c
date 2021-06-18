@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - entry point
- * contain an algorithme that control the output of a random number
- * Always: return 0 (SUCESS)
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
