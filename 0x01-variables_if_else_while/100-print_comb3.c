@@ -16,9 +16,16 @@ int main(void)
 		{
 			if ((n != m) && (n < m))
 			{
+				if (m == 9)
+				{
+					putchar(n % 10 + '0');
+					putchar(n % 10 + '0');
+
+				}
 				putchar(n % 10 + '0');
 				putchar(m % 10 + '0');
 				putchar(',');
+				putchar(' ');
 
 			}
 
