@@ -10,11 +10,9 @@ int main(void)
 	int n;
 	int m;
 
-	n = 0;
-	m = 0;
-	while (n < 9)
+	for (n = 0; n < 9; n++)
 	{
-		while (m <= 9)
+		for (m = 0; m <= 9; m++)
 		{
 			if ((n != m) && (n < m))
 			{
@@ -23,10 +21,8 @@ int main(void)
 				putchar(',');
 
 			}
-			m++;
 
 		}
-		n++;
 	}
 	printf("\n");
 	return (0);
