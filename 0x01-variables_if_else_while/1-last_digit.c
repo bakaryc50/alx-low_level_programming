@@ -4,9 +4,10 @@
 
 /*
  * main - entry point
- * contain an algorithme that print the last digit of a random number
  * Always: return 0 (SUCESS)
  */
+
+/* the function main contain an algorithm that print the last digit of a random number and control its output */
 int main(void)
 {
 	int n, ltd;
