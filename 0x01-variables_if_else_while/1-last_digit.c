@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - entry point
- * Always: return 0 (SUCESS)
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
-/* print the last digit of a random number and control the output */
 int main(void)
 {
 	int n, ltd;
