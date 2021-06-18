@@ -24,7 +24,7 @@ int main(void)
 				}
 				putchar(n % 10 + '0');
 				putchar(m % 10 + '0');
-				putchar(',' + ' ');
+				putchar(',');
 
 			}
 
