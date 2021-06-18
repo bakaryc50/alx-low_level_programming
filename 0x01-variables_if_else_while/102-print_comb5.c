@@ -9,6 +9,8 @@ int main(void)
 {
 	int n;
 	int m;
+	int k;
+	int p;
 
 	for (n = 0; n < 99; n++)
 	{
@@ -16,17 +18,11 @@ int main(void)
 		{
 			if ((n != m) && (n < m))
 			{
-				if (n <= 9 && m <= 9)
-				{
-					putchar('0');
-					putchar(n % 10 + '0');
-					putchar(' ');
-					putchar('0');
-					putchar(m % 10 + '0');
-					putchar(',');
-
-				}
-
+				
+				putchar(n % 10 + '0');
+				putchar(' ');
+				putchar(m % 10 + '0');
+				putchar(',');
 			}
 
 		}
