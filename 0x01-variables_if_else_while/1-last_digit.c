@@ -1,20 +1,30 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /*
  * main - entry point
- * Always: return 0 (SUCCESS)
+ * contain an algorithme that print the last digit of a random number
+ * Always: return 0 (SUCESS)
  */
 int main(void)
 {
-	int n = rand();
-	if (n > 0)
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	int ltd = (n % 10);
+
+	if (ltd > 0)
 	{
-		printf("%d is positive", n);
-	}else if (n == 0)
-	{
-		printf("%d is zero", n);
-	}else
-	{
-		printf("%d is negative", n);
+		printf("Last digit of %d is %d and is greater than 5", n, ltd);
 	}
+	else if (ltd == 0)
+	{
+		printf("Last digit of %d is %d and is 0", n, ltd);
+	}
+	else
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0 ", n, ltd);
+	}
+	return (0);
 }

@@ -3,6 +3,7 @@
 
 /*
  * main - entry point
+ * contain an algorithme that control the output of a random number
  * Always: return 0 (SUCESS)
  */
 int main(void)
