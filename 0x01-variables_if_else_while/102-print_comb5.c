@@ -16,20 +16,18 @@ int main(void)
 		{
 			if ((n != m) && (n < m))
 			{
-				if (n < 10 && m < 10)
+				putchar(n / 10 + '0');
+				putchar(n % 10 + '0');
+				putchar(' ');
+				putchar(m / 10 + '0');
+				putchar(m % 10 + '0');
+				if (n == 98 && m == 99 )
 				{
-					putchar(n / 10 + '0');
-					putchar(n % 10 + '0');
-					putchar(' ');
-					putchar(m / 10 + '0');
-					putchar(m % 10 + '0');
-					putchar(',');
-
 				}
 				else
 				{
-					putchar(n / 10 + '0');
-					putchar(n % 10 + '0');
+					putchar(',');
+					putchar(' ');
 				}
 			}
 
