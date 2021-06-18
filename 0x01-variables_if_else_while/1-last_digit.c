@@ -7,7 +7,7 @@
  * Always: return 0 (SUCESS)
  */
 
-/* the function main contain an algorithm that print the last digit of a random number and control its output */
+/* print the last digit of a random number and control the output */
 int main(void)
 {
 	int n, ltd;
