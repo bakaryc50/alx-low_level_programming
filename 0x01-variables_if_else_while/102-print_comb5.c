@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (m = 0; m <= 99; m++)
 		{
-			if ((n != m) && (n < m) && (m < 10))
+			if ((n != m) && (n < m))
 			{
 				if (n <= 9 && m <= 9)
 				{
@@ -23,6 +23,7 @@ int main(void)
 					putchar(' ');
 					putchar('0');
 					putchar(m % 10 + '0');
+					putchar(',');
 
 				}
 
