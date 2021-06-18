@@ -13,13 +13,17 @@ int main(void)
 	while (n <= 9)
 	{
 		if (n == 9)
+		{
 			putchar(n % 10 + '0');
-
-		putchar(n % 10 + '0');
-		putchar(',');
-		putchar(' ');
+		}
+		else
+		{
+			putchar(n % 10 + '0');
+			putchar(',');
+			putchar(' ');
+		}
 		n++;
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
