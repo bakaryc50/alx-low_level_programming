@@ -16,7 +16,7 @@ int main(void)
 	{
 		while (m <= 9)
 		{
-			if (n != m)
+			if ((n != m) && (n < m))
 			{
 				putchar(n % 10 + '0');
 				putchar(m % 10 + '0');
