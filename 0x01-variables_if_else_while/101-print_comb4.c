@@ -17,7 +17,7 @@ int main(void)
 		{
 			for (k = 0; k <= 9; k++)
 			{
-				if ((n != m && n!= k) && (n < m && m < k))
+				if ((n != m && n != k) && (n < m && m < k))
 				{
 					putchar(n % 10 + '0');
 					putchar(m % 10 + '0');
