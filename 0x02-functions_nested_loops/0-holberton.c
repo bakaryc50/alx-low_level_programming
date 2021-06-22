@@ -9,7 +9,7 @@
 int main(void)
 {
 	_putchar('H');
-	_putchar('o';
+	_putchar('o');i
 	_putchar('l');
 	_putchar('b');
 	_putchar('e');
