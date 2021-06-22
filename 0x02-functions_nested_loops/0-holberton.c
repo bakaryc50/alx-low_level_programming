@@ -8,22 +8,7 @@
  */
 int main(void)
 {
-	char c;
-	
-	_putchar('H');
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		if (c == 'o' || c == 'l' || c == 'b' || c == 'e' || c == 'r' || c == 't')
-		{
-			_putchar(c);
-		}
-	}
-	for ( c = 'o'; c >= 'n'; c++)
-	{
-		if (c == 'o' || c == 'n')
-			_putchar(c);
-	}
-	
+	_putchar();	
 	
 	return (0);
 }
