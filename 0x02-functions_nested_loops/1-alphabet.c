@@ -1,10 +1,7 @@
 #include <stdio.h>
+
 /**
- * _1-alphabet - print the alphabet in lower case
- * 
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * print_alphabet - print the alphabet in lower case
  */
 void print_alphabet(void)
 {
