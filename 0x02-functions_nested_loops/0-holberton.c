@@ -18,9 +18,12 @@ int main(void)
 			_putchar(c);
 		}
 	}
-	_putchar('o');
-	_putchar('n');
+	for ( c = 'o'; c >= 'n'; c++)
+	{
+		if (c == 'o' || c == 'n')
+			_putchar(c);
+	}
 	
-	_putchar('\n');
+	
 	return (0);
 }
