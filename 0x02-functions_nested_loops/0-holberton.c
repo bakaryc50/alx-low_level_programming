@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	my_printf("Holberton");
+	_putchar();
 	printf("\n");
 	return (0);
 }

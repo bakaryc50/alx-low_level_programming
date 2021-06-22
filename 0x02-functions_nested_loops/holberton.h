@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int my_printf(char *str);
-my_printf(char *str)
+int _putchar(void);
+_putchar(void)
 {
-	printf(str);
+	printf("Holberton");
 	return (0);
 }
