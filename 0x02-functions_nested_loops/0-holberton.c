@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "holberton.h"
 
 /**
@@ -7,7 +8,12 @@
  */
 int main(void)
 {
-	_putchar();
+	_putchar("Holberton");
 	printf("\n");
+	return (0);
+}
+_putchar(char *str)
+{
+	printf(str);
 	return (0);
 }
