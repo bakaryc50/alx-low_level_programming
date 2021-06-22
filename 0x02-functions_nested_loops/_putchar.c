@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-_putchar()
+_putchar(char c)
 {
 
-	 putchar('H');
+	 
         for (c = 'a'; c <= 'z'; c++)
         {
                 if (c == 'o' || c == 'l' || c == 'b' || c == 'e' || c == 'r' || c == 't')
