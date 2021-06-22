@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char phrase[];
+	char phrase[9];
 	int i;
 
 	phrase[] = "Holberton";
