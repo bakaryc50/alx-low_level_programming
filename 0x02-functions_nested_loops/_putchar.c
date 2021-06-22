@@ -1,23 +1,13 @@
-#include <stdio.h>
+#include <unistd.h>
 
-_putchar(char c)
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
 {
-
-	 
-        for (c = 'a'; c <= 'z'; c++)
-        {
-                if (c == 'o' || c == 'l' || c == 'b' || c == 'e' || c == 'r' || c == 't')
-                {
-                        putchar(c);
-                }
-        }
-        for ( c = 'o'; c >= 'n'; c++)
-        {
-                if (c == 'o' || c == 'n')
-                        putchar(c);
-        }
-
-	putchar('\n');
-
-	return 0;
+	return (write(1, &c, 1));
 }
