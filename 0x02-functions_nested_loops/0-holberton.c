@@ -8,14 +8,13 @@
  */
 int main(void)
 {
-	char phrase[9];
+	char phrase[] = "Holberton";
 	int i;
 
-	phrase[] = {'H','o','l','b','e','r','t','o','n'};
 	for (i = 0; i <= 9; i++)
 	{
 		_putchar(phrase[i]);
 	}	
-	_putchar('\n');
+
 	return (0);
 }
