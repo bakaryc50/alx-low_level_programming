@@ -11,7 +11,7 @@ int main(void)
 	char phrase[9];
 	int i;
 
-	phrase[] = "Holberton";
+	phrase[] = {'H','o','l','b','e','r','t','o','n'};
 	for (i = 0; i <= 9; i++)
 	{
 		_putchar(phrase[i]);
