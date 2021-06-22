@@ -1,5 +1,3 @@
-#include "_putchar.c"
-
 /**
  * _1-alphabet - print the alphabet in lower case
  * 
