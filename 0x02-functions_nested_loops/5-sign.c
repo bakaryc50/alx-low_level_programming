@@ -1,5 +1,3 @@
-#include "_putchar.c"
-
 /**
  * print_sign - print the sign of a number
  * @n : is parameter
