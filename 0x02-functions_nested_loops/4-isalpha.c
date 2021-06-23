@@ -4,7 +4,7 @@
  * _islower - checks for lowercase character
  * @c : is parameter
  *
- * Return: On success 1.
+ * Return: On success 1 if c is a letter, lowercase or uppercase.
  * On failed 0
  */
 int _isalpha(int c)
@@ -22,6 +22,10 @@ int _isalpha(int c)
 	else if (c >= 0 && c <= 1999)
 	{
 		r = 1;
+	}
+	else if (c >= 0 + '0' && c <= 1999 + '0')
+	{
+		r = 0;
 	}
 	else
 	{
