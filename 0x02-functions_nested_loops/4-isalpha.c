@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * _islower - checks for lowercase character
+ * _isalpha - checks for lowercase character
  * @c : is parameter
  *
  * Return: On success 1 if c is a letter, lowercase or uppercase.
@@ -23,7 +23,11 @@ int _isalpha(int c)
 	{
 		r = 1;
 	}
-	else if (c >= 0 + '0' && c <= 1999 + '0')
+	else if (c >= '0' && c <= '1999')
+	{
+		r = 0;
+	}
+	else if (c == ';' || c == '&')
 	{
 		r = 0;
 	}
