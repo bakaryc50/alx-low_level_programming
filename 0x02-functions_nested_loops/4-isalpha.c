@@ -23,7 +23,7 @@ int _isalpha(int c)
 	{
 		r = 1;
 	}
-	else if (c >= '0' && c <= '1999')
+	else if (c >= '0' && c <= 1999 + '0')
 	{
 		r = 0;
 	}
