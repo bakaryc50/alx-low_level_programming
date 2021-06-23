@@ -16,18 +16,18 @@ int print_sign (int n)
 	if (n > 0)
 	{
 		r = 1;
-		c = putchar('+');
+		c = '+';
 	}
 	else if (n == 0)
 	{
 		r = 0;
-		c = putchar('0');
+		c = '0';
 	}
 	else if (n < 0)
 	{
 		r = -1;
-		c = putchar('-');
+		c = '-';
 	}
-	return (r);
 	putchar(c);
+	return (r);
 }
