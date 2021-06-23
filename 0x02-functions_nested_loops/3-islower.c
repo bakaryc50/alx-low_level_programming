@@ -6,16 +6,18 @@
 int _islower(int c)
 {
 	int i;
+	int r;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		if (c == i)
 		{
-			return 1;
+			r = 1;
 		}
 		else
 		{
-			return 0;
+			r = 0;
 		}
 	}
+	return r;
 }
