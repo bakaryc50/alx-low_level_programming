@@ -5,12 +5,12 @@
  */
 int _islower(int c)
 {
-	char i;
+	int i;
 	int r;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
-		if (c == i)
+		if (c <= 'a' && c >= 'z')
 		{
 			r = 1;
 		}
