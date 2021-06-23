@@ -5,29 +5,26 @@
  * @n : is parameter
  *
  * Return: On success 1 and prints + if n is greater than zero.
- * Return: On zero 0 and prints 0 if n is zero
- * Return: On -1 and prints - if n is less than zero
+ * On zero 0 and prints 0 if n is zero
+ * On -1 and prints - if n is less than zero
  */
 int print_sign(int n)
 {
-	int r;
-	char c;
-
 	if (n > 0)
 	{
-		r = 1;
-		c = '+';
+		putchar('+');
+		return (1);
 	}
 	else if (n == 0)
 	{
-		r = 0;
-		c = '0';
+		putchar('0');
+		return (0);
 	}
 	else if (n < 0)
 	{
-		r = -1;
-		c = '-';
+		putchar('-');
+		return (-1);
 	}
-	putchar(c);
-	return (r);
+	return (0);
 }
+
