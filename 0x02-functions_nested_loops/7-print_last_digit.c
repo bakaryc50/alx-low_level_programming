@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <limit.h>
+#include <limits.h>
 
 /**
  * print_last_digit - print the last digit of a number
