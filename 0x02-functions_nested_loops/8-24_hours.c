@@ -1,14 +1,13 @@
 #include "holberton.h"
-#include <limits.h>
 
 /**
- * print_last_digit - print the last digit of a number
+ * jack_bauer - print 
  * @n: is the parameter of the print_last_digit function
  *
  * Return: the value of the last digit
  */
 
-int print_last_digit(long int n)
+int print_last_digit(int n)
 {
 	if (n < 0)
 	{
@@ -23,8 +22,8 @@ int print_last_digit(long int n)
 	}
 	else if (n == INT_MIN)
 	{
-		_putchar((((INT_MIN) * (-1)) % 10) + '0');
-		return (INT_MIN % 10);
+		_putchar((((-8) * (-1)) % 10) + '0');
+		return (8 % 10);
 	}
 	return (0);
 }
