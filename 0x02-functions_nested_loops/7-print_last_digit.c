@@ -23,7 +23,7 @@ int print_last_digit(long int n)
 	}
 	else if (n == INT_MIN)
 	{
-		_putchar((((INT_MIN) * (-1)) % 10) + '0');
+		_putchar(INT_MIN % 10 + '0');
 		return (INT_MIN % 10);
 	}
 	return (0);
