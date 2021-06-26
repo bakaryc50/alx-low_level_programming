@@ -14,34 +14,12 @@ void times_table(void)
 	{
 		for (times = 0; times < 10; times++)
 		{
-			r = n * times;
-			if (r < 10 )
-			{
-				if (times == 9)
-				{
-					continue;
-				}
-				else
-				{
-					_putchar(r + '0');
-					_putchar(',');
-					_putchar(' ');
-				}
-			}
-			else
-			{	
-				if (times == 9)
-				{
-					continue;
-				}
-				else
-				{			
-					_putchar(r / 10 + '0');
-					_putchar(r % 10 + '0');
-					_putchar(',');
-					_putchar(' ');
-				}
-			}
+			r = n * times;		
+			_putchar(r / 10 + '0');
+			_putchar(r % 10 + '0');
+			_putchar(',');
+			_putchar(' ');
+			
 		}
 		_putchar('\n');
 	}
