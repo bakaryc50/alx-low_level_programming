@@ -10,15 +10,16 @@ void times_table(void)
 	int n;
 	int r;
 
-	for (n = 0; n <= 9; n++)
+	for (n = 0; n < 10; n++)
 	{
-		for (times = 0; times <= 9; times++)
+		for (times = 0; times < 10; times++)
 		{
 			r = n * times;
 			if (r < 10 )
 			{
 				if (times == 9)
 				{
+					continue;
 				}
 				else
 				{
@@ -31,6 +32,7 @@ void times_table(void)
 			{	
 				if (times == 9)
 				{
+					continue;
 				}
 				else
 				{			
