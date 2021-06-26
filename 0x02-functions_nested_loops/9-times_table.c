@@ -16,8 +16,14 @@ void times_table(void)
 		{
 			r = n * times;
 			if (r < 10)
-			{		
-				if (times >= 2)
+			{	
+				if (times == 0)
+				{
+					_putchar(r + '0');
+					_putchar(',');
+					_putchar(' ');
+				}	
+				else if (times >= 2)
 				{
 					_putchar(' ');
 					_putchar(r + '0');
