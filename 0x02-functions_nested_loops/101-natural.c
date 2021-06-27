@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include <stdio>
 
 /**
  * main - Entry point of the program.
