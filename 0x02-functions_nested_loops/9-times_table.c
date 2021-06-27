@@ -22,7 +22,6 @@ void times_table(void)
 			_putchar('0' + (n * times) % 10);
 			if (times < 9)
 				_putchar(',');
-			_putchar(' ');
 		}
 		_putchar('\n');
 	}
