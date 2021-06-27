@@ -1,0 +1,7 @@
+*~
+*.swo
+*.swp
+*.swn
+*.o
+*.out
+positive_or_negitve.c
