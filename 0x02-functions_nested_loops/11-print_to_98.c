@@ -23,11 +23,11 @@ void print_to_98(int n)
 	else if(n == 98)
 	{
 		printf("%d", n);
-		_putchar('\n');
+		printf("\n");
 	}
 	else
 	{
-		for (i = n; i>= 98; i--)
+		for (i = n; i >= 98; i--)
 		{
 			printf("%d", i);
 			if (i != 98)
