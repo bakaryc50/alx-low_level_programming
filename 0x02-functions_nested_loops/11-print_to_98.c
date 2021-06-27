@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_to__98 - print all natural number from n to 98
+ * print_to_98 - print all natural number from n to 98
  * @n: is the parameter to be passed
  */
 
@@ -20,7 +20,7 @@ void print_to_98(int n)
 		}
 		printf("\n");
 	}
-	else if(n == 98)
+	else if (n == 98)
 	{
 		printf("%d", n);
 		printf("\n");
