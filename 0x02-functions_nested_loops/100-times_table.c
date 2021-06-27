@@ -22,7 +22,9 @@ void print_times_table(int n)
 				if (times == 0)
 					;
 				else if ((t * times) < 10)
+				{
 					_putchar(' ');
+				}
 				else if ((t * times) < 100)
 					_putchar('0' + (t * times) / 10);
 					_putchar('0' + (t * times) % 10);
