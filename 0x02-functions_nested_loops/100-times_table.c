@@ -21,8 +21,9 @@ void print_times_table(int n)
 			{
 				if (times == 0)
 				{
+					;
 				}
-				if ((t * times) < 10)
+				else if ((t * times) < 10)
 				{
 					_putchar(' ');
 				}
