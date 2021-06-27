@@ -1,21 +1,23 @@
 #include "holberton.h"
-#include <stdio.h>
 
 /**
- * print_sum_multiple_35 - print the sum of all the multiples of 3 or 5 below 1024
+ * main - Entry point of the program.
+ *
+ * Return: Always 0.
  */
-void print_sum_multiple_35(void)
+int main(void)
 {
-	int sum;
-	int i;
+     int sum;
+     int i;
 
-	for (i = 3; i < 1024; i++)
-	{
-		if ((i % 3 == 0) || (i % 5 == 0))
-		{
-			sum = sum + i;
-		}
-	}
-	printf("%d", sum);
-	printf("\n");
+    for (i = 3; i < 1024; i++)
+    {
+            if ((i % 3 == 0) || (i % 5 == 0))
+            {
+                     sum = sum + i;
+            }
+    }
+    printf("%d", sum);
+    printf("\n");
+    return (0);
 }
