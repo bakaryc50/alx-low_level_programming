@@ -27,12 +27,16 @@ void print_times_table(int n)
 					_putchar(' ');
 				}
 				else if ((t * times) < 100)
+				{
 					_putchar('0' + (t * times) / 10);
 					_putchar('0' + (t * times) % 10);
+				}
 				else
+				{
 					_putchar('0' + (t * times) / 10);
 					_putchar('0' + ((t * times) / 10) % 10);
 					_putchar('0' + (t * times) % 10);
+				}
 				if (times < n)
 				{
 					_putchar(',');
