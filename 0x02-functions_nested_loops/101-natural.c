@@ -3,7 +3,7 @@
 /**
  * print_sum_multiple_35 - print the sum of all the multiples of 3 or 5 below 1024
  */
-int print_sum_multiple_35(void)
+void print_sum_multiple_35(void)
 {
 	int sum;
 	int i;
