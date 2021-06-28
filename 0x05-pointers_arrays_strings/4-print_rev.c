@@ -9,13 +9,10 @@ void print_rev(char *s)
 	char *t;
 	t = s;
 	while (*t)
-	{
-		while (s < t--)
-		{
-			_putchar(*t);
-		}
-		t++;
-	}
+		++t;
+	while (s < t--)
+		_putchar(*t);
+
 	_putchar('\n');
 
 }
