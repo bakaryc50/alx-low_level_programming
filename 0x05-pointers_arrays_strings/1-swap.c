@@ -9,7 +9,7 @@ void swap_int(int *a, int *b)
 {
 	int *tmp;
 
-	*tmp = 0;
+	*tmp = malloc(sizeof(a));
 	*tmp = *a;
 	*a = *b;
 	*b = *tmp;
