@@ -8,15 +8,17 @@
 int _atoi(char *s)
 {
 	int len;
+	int i;
 	char n;
 
 	len = 0;
 	while (*(s + len))
 	{
-		if (*(s + len) >= '0' && *(s + len) <= '9')
-			n = (*(s + len));
+		for (i = 0; i <= 9; i++)
+			if (*(s + len) == i)
+				n = i;
 		len++;
 	}
 
-	return (n + '0');
+	return (n);
 }
