@@ -4,13 +4,6 @@
  * leet - encode a string into 1337.
  * @s: the string to encode
  *
- * Description: Characters are encoded as follows:
- * {'a', 'A'} -> '4'
- * {'e', 'E'} -> '3'
- * {'o', 'O'} -> '0'
- * {'t', 'T'} -> '7'
- * {'l', 'L'} -> '1'
- *
  * Return: pointer to the encoded string
  */
 char *leet(char *s)
