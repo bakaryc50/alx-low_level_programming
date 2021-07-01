@@ -2,8 +2,8 @@
 
 /**
  * _strcmp- compare two strings
- * @dest: first pointer parameter to string
- * @src: second pointer parameter to string
+ * @s1: first pointer parameter to string
+ * @s2: second pointer parameter to string
  *
  * Return: 0 if s1 matches s2
  * otherwise an integer less than 0 if s1 is less than s2
