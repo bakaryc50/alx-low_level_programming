@@ -9,7 +9,7 @@
  * otherwise an integer less than 0 if s1 is less than s2
  * or an integer greater than 0 if s1 is greater than s2
  */
-char *_strncpy(char *dest, char *src, int n)
+char *_strcmp(char *dest, char *src, int n)
 {
 	for (; *s1 && *s2; s1++, s2++)
 	{
