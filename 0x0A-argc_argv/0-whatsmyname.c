@@ -1,14 +1,30 @@
 #include "holberton.h"
 
+
 /**
- * main - Entry point of the program
- * @argc: the argument count parameter
- * @argv: the array of size argc parameter (the pointer to an array of string)
+ * _puts - print a string, followed by a new line
+ * @str: the string to print
  *
- * Return: 0 (SUCCESS)
+ * Return: void
+ */
+void _puts(char *str)
+{
+	while (*str)
+		_putchar(*str++);
+	_putchar('\n');
+}
+
+
+/**
+ * main - print the name of the program
+ * @argc: size of the argument vector
+ * @argv: program name and arguments
+ *
+ * Return: Always 0
  */
 int main(int argc __attribute__ ((unused)), char *argv[])
 {
-		printf("%s \n", argv[0]);
+	_puts(argv[0]);
+
 	return (0);
 }
