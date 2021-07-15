@@ -1,0 +1,16 @@
+#include "holberton.h"
+
+/**
+ * malloc_checked - allocates memory using malloc
+ * Description: if malloc fails, the checker function should cause normal exit
+ *
+ * Return: a pointer to the allocated memory
+ */
+void *malloc_checked(unsigned int b)
+{
+	void *pointer = malloc(b);
+	if (pointer != null)
+		return (pointer);
+	exit(98);
+
+}
