@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 /**
- * struct dog - the user type defined dog
+ * struct dog - the user type defined struct dog
  * @name: the name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
