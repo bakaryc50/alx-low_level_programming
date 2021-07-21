@@ -7,8 +7,9 @@
  * @cmp: the pointer to the fucntion you need to use
  */
 
-int int_index(int *array, int size, void (*cmp)(int))
+int int_index(int *array, int size, int (*cmp)(int))
 {
+	int i;
 
 	if (cmp != NULL && array != NULL)
 	{
