@@ -7,7 +7,7 @@
 void print(char *n)
 {
 	int i;
-	
+
 	i = 0;
 	while (n[i])
 	{
@@ -15,9 +15,11 @@ void print(char *n)
 	}
 	_putchar('\n');
 }
+
 /**
  * print_name - a function that prints a name
  * @name: a string parameter
+ * @f: is the function pointer
  */
 
 void print_name(char *name, void (*f)(char *))
