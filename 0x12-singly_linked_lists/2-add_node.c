@@ -8,16 +8,14 @@
  */
 size_t _strlen(const char *str)
 {
-        const char *tmp = str;
+	const char *tmp = str;
 
-        if (str != NULL)
-        {
-                while (*tmp)
+	if (str != NULL)
+	{
+		while (*tmp)
 			++tmp;
-
-        }
-
-        return (tmp - str);
+	}
+	return (tmp - str);
 }
 
 /**
