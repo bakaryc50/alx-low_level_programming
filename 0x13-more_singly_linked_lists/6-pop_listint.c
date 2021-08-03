@@ -9,7 +9,7 @@
 int pop_listint(listint_t **head)
 {
 	int data_save;
-	listint_t oldnode;
+	listint_t *oldnode;
 
 	if (!(head && *head))
 		return (0);
