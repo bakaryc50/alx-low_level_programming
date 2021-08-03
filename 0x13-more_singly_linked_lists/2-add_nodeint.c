@@ -7,9 +7,9 @@
  *
  * Return: the address of the nodes added
  */
-size_t *add_nodeint(listint_t **head, const int n);
+listint_t *add_nodeint(listint_t **head, const int n)
 {
-	listint_t *new = NULL;
+	listint_t *new;
 
 	if (head == NULL)
 		return (NULL);
