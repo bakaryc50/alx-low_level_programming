@@ -19,7 +19,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t to_write;
 
 	/* open file in read only */
-	if (!(filename & letters))
+	if (!(filename && letters))
 		return (0);
 	fd = open(filename, O_RDONLY);
 	if (fd == -1)
