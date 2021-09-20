@@ -1,4 +1,2 @@
 #!/bin/bash
-cfiles=( *.c )
-gcc -c -fPIC "${cfiles[@]}"
-gcc -shared -o liball.so "${cfiles[@]/%.c/.o}"
+gcc -fPIC -shared -Wall -Werror -Wextra -pedantic -o "lib${1:-all}.so" *.c
