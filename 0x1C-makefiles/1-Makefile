@@ -1,0 +1,21 @@
+# Makefile for 0-makefile
+
+NAME = school
+
+CC = gcc	#Compilator
+#CFLAGS = -Wall -Werror -Wextra -pedantic
+OBJ = school.o main.o
+SRC = school.c main.c
+
+RM = rm -f
+
+all: $(SRC)
+	$(CC) $^ -o $(NAME)
+
+clean:
+	$(RM) $(NAME) $(TMPFILES)
+
+oclean:
+	$(RM) $(OBJ)
+
+fclean: clean oclean
